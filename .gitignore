@@ -20,7 +20,6 @@ _deploy/*
 .ftp_pass
 docs/
 .vscode
-assets
 node_modules
 _drafts
 tmp.py
