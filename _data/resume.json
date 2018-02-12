@@ -1,0 +1,357 @@
+{
+    "basics": {
+        "name": "Anas Aboureada",
+        "label": "Full-Stack Web Developer Engineer & Penetration Tester",
+        "phones": [
+            "+46 (0) 700 60-7686",
+            " / ",
+            "+20 100 458-0907"
+        ],
+        "website": "http://aboureada.com",
+        "blog": "http://aboureada.com/blog",
+        "email": "anas@aboureada.com",
+        "summary": [
+            "Full-stack web developer engineer with +4 years professional experience.",
+            "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
+            "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
+            "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
+            "Writing NodeJs, Python, Javascript, SQL, HTML5, CSS3 almost everyday :)",
+            "Penetration tester, reverse engineer, registered OSCP student."
+        ],
+        "locations": [
+            {
+                "city": "Stockholm",
+                "country": "Sweden /"
+            },
+            {
+                "city": "Alexandria",
+                "country": "Egypt"
+            }
+        ],
+        "profiles": [
+            {
+                "network": "github",
+                "username": "anasfullstack",
+                "url": "http://github.com/anasfullstack"
+            },
+            {
+                "network": "twitter",
+                "username": "anasfullstack",
+                "url": "http://twitter.com/anasfullstack"
+            },
+            {
+                "network": "linkedin",
+                "username": "anasfullstack",
+                "url": "http://linkedin.com/in/anasfullstack"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "DoReMIR Music Research AB",
+            "position": "Web Developer Engineer",
+            "city": "Stocholm",
+            "country": "Sweden",
+            "website": "http://doremir.com",
+            "startDate": "2015-07",
+            "endDate": "2018-02",
+            "location": {
+                "city": "Stockholm",
+                "countryCode": "Sweden"
+            },
+            "summary": [
+                "Designed and implemented server-less system for audio analysis using AWS Lambda functions, AWS API-Gateway, AWS DynamoDB, S3, NodeJS, Mocha, Chai, ...etc.",
+                "Designed and implemented REST API to consume the audio analysis server using Sails.js, MongoDB and deployed it to Heroku.",
+                "Enhanced the performance in ScoreCloud App back-end (Worked in both the database layer and code logic layer).",
+                "Added many features to ScoreCloud APP back-end using NodeJS, PostgreSQL (Song quality rating system, song view, play & share counter, user mailing list queues, CRON jobs, many other micro features).",
+                "Wrote unit, integration & stress tests for old and current code and services.",
+                "Wrote many components in ReactJS for SingMoji Mobile App",
+                "Wrote many python scripts for server administration tasks"
+            ]
+        },
+        {
+            "company": "Globalmouth - 360 Go Mobile Agency",
+            "position": "Web Mobile Application Developer",
+            "website": "http://globalmouth.com",
+            "startDate": "2015-03",
+            "location": {
+                "city": "Stockholm",
+                "countryCode": "Sweden"
+            },
+            "summary": [
+                "Used AngularJS / HTML5 / Sass to maintain fully responsive websites.",
+                "Improved many implemented features and fixed some bugs in them.",
+                "Connected the front-end with some APIs (eg. TAIN API [ Payment API])."
+            ],
+            "endDate": "2015-05"
+        },
+        {
+            "company": "Madar Soft",
+            "position": "Web / Hybrid Application Developer",
+            "website": "http://madarsoft.com",
+            "startDate": "2014-03-01",
+            "location": {
+                "city": "Alexandria",
+                "countryCode": "Egypt"
+            },
+            "summary": [
+                "Developed front-end for many mobile applications using AngularJS, HTML5, Sass& JavaScript .",
+                "Used Cordova / PhoneGap to handle mobile devices' features and sensors, and to produce Hybrid Applications for both Android and IOS.",
+                "Connected front-end with different kinds of APIs like  Facebook API, Google maps, YouTube API.",
+                "Worked in UX / UI analysis, created wire-frames for both mobiles and websites."
+            ],
+            "endDate": "2015-03-01"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Alexandria University",
+            "area": "Egypt",
+            "studyType": "Bachelor of Engineering (B.E.) in Electrical, Electronic and Communication",
+            "startDate": "2004",
+            "endDate": "2011",
+            "courses": [
+                "Computer Architecure",
+                "Operating Systems",
+                "microprocessors"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Penetration Testing Skills",
+            "keywords": [
+                "Python",
+                "Shell Script",
+                "X86 Assembly",
+                "Reverse Engineering",
+                "Web App Penetration testing"
+            ]
+        },
+        {
+            "name": "Back-End",
+            "keywords": [
+                "NodeJS",
+                "Express.JS",
+                "Sails.JS",
+                "AWS Lambda-Function",
+                "AWS API-Gateway",
+                "AWS EC2"
+            ]
+        },
+        {
+            "name": "Datebase",
+            "keywords": [
+                "AWS DynamoDB",
+                "MongoDB",
+                "PostgreSQL",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Front-End",
+            "keywords": [
+                "ReactJs",
+                "Redux",
+                "RxJS",
+                "AngularJS",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "SASS",
+                "LESS"
+            ]
+        },
+        {
+            "name": "Tools & methodologies",
+            "keywords": [
+                "Travis",
+                "TDD",
+                "BDD",
+                "Gulp",
+                "Grunt",
+                "Mocha",
+                "Chai",
+                "Locust",
+                "Vagrant",
+                "Docker"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        },
+        {
+            "language": "Arabic",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "Swedish",
+            "fluency": "Beginner"
+        }
+    ],
+    "volunteers": [
+        {
+            "organization": "Life Makers Foundation",
+            "position": "Children Teacher in orphanages",
+            "website": "http://lifemakers.org",
+            "startDate": "2007-07",
+            "location": {
+                "city": "Alexandria",
+                "countryCode": "Egypt"
+            },
+            "summary": [
+                "Teaches orphan children basic academic materials to help them joining regular schools and also helped them fixing their bad behaviours and habits."
+            ],
+            "endDate": "2013-06"
+        },
+        {
+            "organization": "Life Makers Foundation",
+            "position": "ICDL Certificate Teacher",
+            "website": "http://lifemakers.org",
+            "startDate": "2007-07",
+            "location": {
+                "city": "Alexandria",
+                "countryCode": "Egypt"
+            },
+            "summary": [
+                "Taught ICDL and computer basics to poor people to help them getting a better job."
+            ],
+            "endDate": "2013-06"
+        },
+        {
+            "organization": "Human Relief Foundation",
+            "position": "Paramedic",
+            "website": "http://www.hrf.org.uk",
+            "startDate": "2011-01",
+            "location": {
+                "city": "Alexandria",
+                "countryCode": "Egypt"
+            },
+            "summary": [
+                "Volunteered as a paramedic in a field hospital during the Egyptian revolution."
+            ],
+            "endDate": "2011-10"
+        }
+    ],
+    "projects": [
+        {
+            "name": "DoReMIR Audio Analysis API",
+            "startDate": "2015-07-01",
+            "summary": "Real-time polyphonic and monophonic Audio Analysis Service that creates music notation from voices.",
+            "highlights": [
+                "Designed and implemented the whole system.",
+                "Wrote algorithms to concatenate audio stream chunks and encode/decode them.",
+                "Cloud administration for all AWS services we used."
+            ],
+            "url": "http://scorecloud.com/",
+            "keywords": [
+                "Server-Less Architecture",
+                "NodeJS",
+                "AWS DynamoDB",
+                "AWS Lambda-Function",
+                "AWS API-Gateway"
+            ]
+        },
+        {
+            "name": "SongSketcher API",
+            "startDate": "2015-07-01",
+            "summary": "REST API to our clients to consume \"DoReMIR Audio Analysis API\"",
+            "url": "http://songsketcher.doremir.com/",
+            "keywords": [
+                "SailsJs",
+                "MongoDB"
+            ],
+            "highlights": [
+                "Designed and implemented the whole API."
+            ],
+            "endDate": "2016-01-01"
+        },
+        {
+            "name": "ScoreCloud",
+            "startDate": "2015-07-01",
+            "summary": "ScoreCloud is 'Like Google Translate for music'. It instantly turns your singing or songs into sheet music.",
+            "url": "http://scorecloud.com/",
+            "keywords": [
+                "NodeJS",
+                "PostgreSQL"
+            ],
+            "highlights": [
+                "Added a many micro features to it, and helped with maintaining it and enhancing some queries response times "
+            ],
+            "endDate": "2016-01-01"
+        },
+        {
+            "name": "HeartBet",
+            "summary": "Heartbet.com is an online casino and betting platform, it offers a simpler and faster way to bet and win in your mobile",
+            "startDate": "2015-03-01",
+            "keywords": [
+                "AngularJS",
+                "HTML5",
+                "Sass",
+                "WordPress"
+            ],
+            "highlights": [
+                "Fixed many bugs and added a lot of improvements both in functionality and styling.",
+                "Implemented new payment solution using TAIN API.",
+                "I also worked in the back-end with WordPress and fixed some issues with the JSON API generated from WordPress."
+            ],
+            "url": "https://www.heartbet.com/",
+            "endDate": "2015-05-01"
+        },
+        {
+            "name": "Gadawel",
+            "startDate": "2015-01",
+            "keywords": [
+                "AngularJS",
+                "HTML5",
+                "Sass"
+            ],
+            "summary": "Gadawel is an educational mobile app which helping you on making a schedule for your subjects, assignments, and having a smart table which is your aide on determining your attendance. Jadawel is like an assist of the pupils and teachers.",
+            "highlights": [
+                "Implemented multiple mobile web view screens using AngularJS, HTML5 and CSS3."
+            ],
+            "url": "https://play.Google.com/store/apps/details?id=com.gadawelmadar",
+            "endDate": "2015-03"
+        },
+        {
+            "name": "AlMotawef",
+            "startDate": "2014-09",
+            "keywords": [
+                "AngularJS",
+                "HTML5",
+                "Sass"
+            ],
+            "summary": "AlMotawef is an mobile application which provides an interactive guide for Hajj with all its Mansaks and For Umra, with complete elegant explanation.",
+            "highlights": [
+                "Implemented multiple mobile web view screens using AngularJS, HTML5 and CSS3."
+            ],
+            "url": "https://play.Google.com/store/apps/details?id=com.madar",
+            "endDate": "2015-01"
+        }
+    ],
+    "references": [
+        {
+            "summary": "I really enjoy working with Anas. He is a very skilled backend and frontend developer who is always eager to learn new technologies and increase his knowledge. He puts his heart and soul into work and always delivers. Anas is also a great guy to have around with his international experience and interest in history and world politics.",
+            "name": "Sven Emtell",
+            "position": "Co-founder and CTO",
+            "company": "DoReMIR Music Research AB",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sweden"
+            }
+        },
+        {
+            "summary": "Anas is a Talented Software Engineer with the passion to learn about new technologies and continues learning, proactively works with the teams to get work done in very fast and elegant way. I enjoyed work with Anas.",
+            "name": "Ahmed Korany",
+            "position": "Software Development Manager",
+            "company": "Madar Software",
+            "location": {
+                "city": "Alexandria",
+                "country": "Egypt"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+<header id="header" class="clear">
+  <div id="title" class="middle">
+    <h1 class="name">{{site.data.resume.basics.name}}</h1>
+    <h2 class="label">{{site.data.resume.basics.label}}</h2>
+  </div>
+
+  <span class="location">
+      {% for member in site.data.resume.basics.locations %}
+        <span class="city">
+          {{member.city}},
+        </span>
+        <span class="countryCode">
+          {{member.country}}
+        </span>
+      {% endfor %}
+  </span>
+
+  <span id="contact">
+    <span class="website">
+      <span class="fa fa-external-link"></span>
+      <a target="_blank" target="_blank" href="{{site.data.resume.basics.website}}">
+        {{site.data.resume.basics.website}}
+      </a>
+    </span>
+
+    <span class="email">
+      <span class="fa fa-envelope-o"></span>
+      <a href="mailto:{{site.data.resume.basics.email}}">{{site.data.resume.basics.email}}</a>
+    </span>
+
+    <span class="phone">
+      <span class="fa fa-mobile"></span>
+        {% for member in site.data.resume.basics.phones %}
+          {{member}}
+        {% endfor %}
+      </span>
+    </span>
+
+  <div id="profiles">
+    {% for member in site.data.resume.basics.profiles %}
+    <div class="item">
+        <div class="username">
+          <span class="fa fa-{{member.network}} {{member.network}} social"></span>
+          <span class="url">
+            <a target="_blank" href="{{member.url}}">{{member.username}}</a>
+          </span>
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+</header>

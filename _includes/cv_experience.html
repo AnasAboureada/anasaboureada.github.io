@@ -1,0 +1,62 @@
+<section class="section">
+  <header>
+    <h2 class='section-title'>Work Experience
+      <span class="item-count">({{site.data.resume.work | size}})</span>
+    </h2>
+  </header>
+
+  {% for work in site.data.resume.work %}
+  <section id="work">
+    <header>
+      <span class="space-left">
+        <span class="fa fa-briefcase"></span>
+      </span>
+
+      <div class="position">
+        {{work.position}}
+      </div>
+
+      <div class="company">
+        {{work.company}}
+      </div>
+
+      <div class="date">
+        <span class="startDate">
+          {{work.startDate}}
+        </span>
+        <span class="endDate">
+          - {{work.endDate}}
+        </span>
+      </div>
+    </header>
+
+    <span class="location">
+      <span class="fa fa-map-marker"></span>
+      <span class="city">
+        {{work.location.city}},
+      </span>
+      <span class="countryCode">
+        ({{work.location.countryCode}})
+      </span>
+    </span>
+
+    <span class="website">
+      <a target="_blank" href="{{work.website}}">{{work.website}}</a>
+    </span>
+
+    <div class="item display" style="opacity:1">
+      <section class="summary">
+        <section>
+          <ul>
+            {% for summary in work.summary %}
+            <li>
+              {{summary}}
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </section>
+    </div>
+  </section>
+  {% endfor %}
+</section>

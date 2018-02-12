@@ -1,0 +1,17 @@
+<section class="section margin1">
+  <header>
+    <h2 class='section-title'>Summary</h2>
+  </header>
+
+  <section class="section main-summary">
+    <section>
+      <ul>
+        {% for member in site.data.resume.basics.summary %}
+          <li>
+              {{member}}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </section>
+</section>

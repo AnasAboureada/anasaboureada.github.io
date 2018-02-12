@@ -1,0 +1,40 @@
+<section class="section">
+  <header>
+    <h2 class='section-title'>Education
+      <span class="item-count">({{site.data.resume.education | size}})</span>
+    </h2>
+  </header>
+
+  <section id="education">
+    {% for education in site.data.resume.education %}
+    <header class="clear">
+      <span class="space-left">
+        <span class="fa fa-graduation-cap"></span>
+      </span>
+
+      <div class="header-left">
+        <div class="studyType">
+          {{education.studyType}}
+        </div>
+        <div class="institution">
+          {{education.institution}} , {{education.area}}
+        </div>
+      </div>
+      <div class="date">
+        <span class="startDate">
+          {{education.startDate}}
+        </span>
+        <span class="endDate">
+          - {{education.endDate}}
+        </span>
+      </div>
+    </header>
+
+    <ul class="courses">
+      {% for course in education.courses %}
+      <li>{{course}}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+</section>

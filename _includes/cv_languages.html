@@ -1,0 +1,19 @@
+<section class="section margin1">
+  <header>
+    <h2 class='section-title'>Languages</h2>
+  </header>
+  <section id="languages">
+    {% for language in site.data.resume.languages %}
+    <div class="display">
+      <h3 class="language">
+        {{language.language}}
+      </h3>
+      <div class="item">
+        <div class="level fluency {{toLowerCase fluency}}">
+          <em>{{language.fluency}}</em>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</section>

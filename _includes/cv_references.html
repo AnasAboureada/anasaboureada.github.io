@@ -1,0 +1,20 @@
+<section class="section">
+  <header>
+    <h2 class='section-title'>References</h2>
+  </header>
+
+  <section id="references">
+      {% for reference in site.data.resume.references %}
+    <div class="item">
+      <blockquote class="reference">
+        &#8220;&#32;{{reference.summary}}&#32;&#8221;
+      </blockquote>
+
+      <div class="name">
+        {{reference.name}} | {{reference.position}} @ {{reference.company}} | {{reference.location.city}}, {{reference.location.country}}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</section>
+

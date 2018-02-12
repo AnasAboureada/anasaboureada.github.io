@@ -1,0 +1,21 @@
+<section class="section margin1">
+  <header>
+    <h2 class='section-title'>Skills</h2>
+  </header>
+
+  <section id="skills">
+    {% for member in site.data.resume.skills %}
+      <div class="item">
+        <h3 class="name">
+          {{member.name}}
+        </h3>
+
+        <ul class="keywords">
+          {% for keyword in member.keywords %}
+            <li>{{keyword}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </section>
+</section>

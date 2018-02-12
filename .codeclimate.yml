@@ -1,0 +1,35 @@
+---
+engines:
+  bundler-audit:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  css-lint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
+  scss-lint:
+    enabled: true
+ratings:
+  paths:
+  - "**.md"
+  - "**.css"
+  - "**.scss"
+  - "**.js"
+  - "**.jsx"
+exclude_paths:
+- node_modules/
+- _site/
+- assets
+- .sass-cache
+- anas_wordlist.txt
+- .idea
+- Gemfile*
+- .vscode

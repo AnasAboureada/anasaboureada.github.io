@@ -1,0 +1,47 @@
+<section class="section">
+  <header>
+    <h2 class='section-title'>Projects <span class="item-count">({{site.data.resume.projects | size}})</span></h2>
+  </header>
+
+  <section id="projects">
+      {% for project in site.data.resume.projects %}
+        <header>
+          <span class="space-left">
+              <span class="fa fa-rocket"></span>
+          </span>
+          <div class="position">
+            {{project.name}}
+          </div>
+          <div class="date">
+            <span class="startDate">
+              {{project.startDate}}
+            </span>
+            <span class="endDate">
+              - {{project.endDate}}
+            </span>
+          </div>
+        </header>
+
+        <span class="website">
+            <a href="{{project.url}}">{{project.url}}</a>
+        </span>
+
+        <ul class="keywords">
+          {% for keyword in project.keywords %}
+          <li>{{keyword}}</li>
+          {% endfor %}
+        </ul>
+
+        <div class="item display" style="opacity:1">
+          <div class="summary">
+            <p>{{project.summary}}</p>
+          </div>
+          <ul class="highlights">
+            {% for highlight in project.highlights %}
+            <li>{{highlight}}</li>
+            {% endfor %}
+          </ul>
+      </div>
+      {% endfor %}
+    </section>
+  </section>

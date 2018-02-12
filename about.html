@@ -1,0 +1,15 @@
+---
+layout: null
+section-type: about
+title: About
+---
+## About
+
+<ul>
+  {% for member in site.data.resume.basics.summary %}
+    <li>
+        {{ member }}
+    </li>
+  {% endfor %}
+</ul>
+<a href="{{ site.baseurl }}/cv">Check my CV</a>
