@@ -15,7 +15,7 @@
             "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
             "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
             "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
-            "Writing NodeJs, Python, JavaScript, Bash, SQL, HTML5, CSS3 almost everyday :)",
+            "Writing NodeJs, Python, JavaScript, Bash, SQL, HTML5, CSS3 almost every day :)",
             "Penetration tester and 'Offensive Security Certified Professional (OSCP)' student."
         ],
         "locations": [
@@ -60,7 +60,7 @@
                 "countryCode": "Sweden"
             },
             "summary": [
-                "Designed and implemented server-less system for audio analysis using AWS Lambda functions, AWS API-Gateway, AWS DynamoDB, S3, NodeJS, Mocha, Chai, ...etc.",
+                "Designed and implemented a server-less system for audio analysis using AWS Lambda functions, AWS API-Gateway, AWS DynamoDB, S3, NodeJS, Mocha, Chai, ...etc.",
                 "Designed and implemented REST API to consume the audio analysis server using Sails.js, MongoDB and deployed it to Heroku.",
                 "Enhanced the performance in ScoreCloud App back-end (Worked in both the database layer and code logic layer).",
                 "Added many features to ScoreCloud APP back-end using NodeJS, PostgreSQL (Song quality rating system, song view, play & share counter, user mailing list queues, CRON jobs, many other micro features).",
@@ -95,7 +95,7 @@
                 "countryCode": "Egypt"
             },
             "summary": [
-                "Developed front-end for many mobile applications using AngularJS, HTML5, Sass& JavaScript .",
+                "Developed front-end for many mobile applications using AngularJS, HTML5, Sass& JavaScript.",
                 "Used Cordova / PhoneGap to handle mobile devices' features and sensors, and to produce Hybrid Applications for both Android and IOS.",
                 "Connected front-end with different kinds of APIs like  Facebook API, Google maps, YouTube API.",
                 "Worked in UX / UI analysis, created wire-frames for both mobiles and websites."
@@ -130,7 +130,7 @@
             ]
         },
         {
-            "name": "Datebase",
+            "name": "Database",
             "keywords": [
                 "AWS DynamoDB",
                 "MongoDB",
@@ -219,7 +219,7 @@
                 "countryCode": "Egypt"
             },
             "summary": [
-                "Taught ICDL and computer basics to poor people to help them getting a better job."
+                "Taught ICDL and computer basics to poor people to help them get a better job."
             ],
             "endDate": "2013"
         },
@@ -246,7 +246,7 @@
         "summary": "Your personal music messenger! It's a web mobile app to record anything and transfer it to a full song with composition",
         "highlights": [
             "Designed and implemented many ReactJS components",
-            "Wrote Cordova plugin in Swift to save videos to IPhone/IPad gallery.",
+            "Wrote Cordova plugin in Swift to save videos to iPhone/iPad gallery.",
             "Fixed many Cordova plugins (Both in Swift and Objective-C) to make them compatible with our app"        ],
         "url": "http://doremir.com/singmoji/",
         "keywords": [
@@ -300,7 +300,7 @@
                 "PostgreSQL"
             ],
             "highlights": [
-                "Added a many micro features to it, and helped with maintaining it and enhancing some queries response times",
+                "Added many micro features to it, and helped with maintaining it and enhancing some queries response times",
                 "Wrote many python scripts to automate many server administration tasks"
             ],
             "endDate": "2016"
@@ -314,7 +314,7 @@
                 "HTML5",
                 "Sass"
             ],
-            "summary": "Gadawel is an educational mobile app which helping you on making a schedule for your subjects, assignments, and having a smart table which is your aide on determining your attendance. Jadawel is like an assist of the pupils and teachers.",
+            "summary": "Gadawel is an educational mobile app which helps you on making a schedule for your subjects, assignments and having a smart table which is your aide in determining your attendance. Jadawel is like an assist of the pupils and teachers.",
             "highlights": [
                 "Implemented multiple mobile web view screens using AngularJS, HTML5 and CSS3."
             ],
