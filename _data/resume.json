@@ -15,7 +15,7 @@
             "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
             "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
             "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
-            "Writing NodeJs, Python, Javascript, Bash, SQL, HTML5, CSS3 almost everyday :)",
+            "Writing NodeJs, Python, JavaScript, Bash, SQL, HTML5, CSS3 almost everyday :)",
             "Penetration tester and 'Offensive Security Certified Professional (OSCP)' student."
         ],
         "locations": [
@@ -53,8 +53,8 @@
             "city": "Stocholm",
             "country": "Sweden",
             "website": "http://doremir.com",
-            "startDate": "2015-07",
-            "endDate": "2018-02",
+            "startDate": "2015",
+            "endDate": "2018",
             "location": {
                 "city": "Stockholm",
                 "countryCode": "Sweden"
@@ -73,7 +73,7 @@
             "company": "Globalmouth - 360 Go Mobile Agency",
             "position": "Web Mobile Application Developer",
             "website": "http://globalmouth.com",
-            "startDate": "2015-03",
+            "startDate": "2015",
             "location": {
                 "city": "Stockholm",
                 "countryCode": "Sweden"
@@ -83,13 +83,13 @@
                 "Improved many implemented features and fixed some bugs in them.",
                 "Connected the front-end with some APIs (eg. TAIN API [ Payment API])."
             ],
-            "endDate": "2015-05"
+            "endDate": "2015"
         },
         {
             "company": "Madar Soft",
             "position": "Web / Hybrid Application Developer",
             "website": "http://madarsoft.com",
-            "startDate": "2014-03-01",
+            "startDate": "2014",
             "location": {
                 "city": "Alexandria",
                 "countryCode": "Egypt"
@@ -100,7 +100,7 @@
                 "Connected front-end with different kinds of APIs like  Facebook API, Google maps, YouTube API.",
                 "Worked in UX / UI analysis, created wire-frames for both mobiles and websites."
             ],
-            "endDate": "2015-03-01"
+            "endDate": "2015"
         }
     ],
     "education": [
@@ -111,7 +111,7 @@
             "startDate": "2004",
             "endDate": "2011",
             "courses": [
-                "Computer Architecure",
+                "Computer Architecture",
                 "Operating Systems",
                 "microprocessors"
             ]
@@ -199,7 +199,7 @@
             "organization": "Life Makers Foundation",
             "position": "Children Teacher in orphanages",
             "website": "http://lifemakers.org",
-            "startDate": "2007-07",
+            "startDate": "2007",
             "location": {
                 "city": "Alexandria",
                 "countryCode": "Egypt"
@@ -207,13 +207,13 @@
             "summary": [
                 "Teaches orphan children basic academic materials to help them joining regular schools and also helped them fixing their bad behaviours and habits."
             ],
-            "endDate": "2013-06"
+            "endDate": "2013"
         },
         {
             "organization": "Life Makers Foundation",
             "position": "ICDL Certificate Teacher",
             "website": "http://lifemakers.org",
-            "startDate": "2007-07",
+            "startDate": "2007",
             "location": {
                 "city": "Alexandria",
                 "countryCode": "Egypt"
@@ -221,13 +221,13 @@
             "summary": [
                 "Taught ICDL and computer basics to poor people to help them getting a better job."
             ],
-            "endDate": "2013-06"
+            "endDate": "2013"
         },
         {
             "organization": "Human Relief Foundation",
             "position": "Paramedic",
             "website": "http://www.hrf.org.uk",
-            "startDate": "2011-01",
+            "startDate": "2011",
             "location": {
                 "city": "Alexandria",
                 "countryCode": "Egypt"
@@ -235,18 +235,19 @@
             "summary": [
                 "Volunteered as a paramedic in a field hospital during the Egyptian revolution."
             ],
-            "endDate": "2011-10"
+            "endDate": "2011"
         }
     ],
     "projects": [
       {
         "name": "SingMoji",
-        "startDate": "2017-01-01",
+        "startDate": "2017",
+        "endDate": "2018",
         "summary": "Your personal music messenger! It's a web mobile app to record anything and transfer it to a full song with composition",
         "highlights": [
             "Designed and implemented many ReactJS components",
-            "Wrote cordova plugin in Swift to save videos to IPhone/IPad gallery.",
-            "Fixed many cordova plugins (Both in Swift and Objective-C) to make them compatible with our app"        ],
+            "Wrote Cordova plugin in Swift to save videos to IPhone/IPad gallery.",
+            "Fixed many Cordova plugins (Both in Swift and Objective-C) to make them compatible with our app"        ],
         "url": "http://doremir.com/singmoji/",
         "keywords": [
             "ReactJs",
@@ -258,7 +259,8 @@
       },
         {
             "name": "DoReMIR Audio Analysis API",
-            "startDate": "2015-07-01",
+            "startDate": "2015",
+            "endDate": "2018",
             "summary": "Real-time polyphonic and monophonic Audio Analysis Service that creates music notation from voices.",
             "highlights": [
                 "Worked with the CTO in designing and implementing the whole system.",
@@ -276,7 +278,7 @@
         },
         {
             "name": "SongSketcher API",
-            "startDate": "2015-07-01",
+            "startDate": "2015",
             "summary": "REST API to our clients to consume \"DoReMIR Audio Analysis API\"",
             "url": "http://songsketcher.doremir.com/",
             "keywords": [
@@ -286,11 +288,11 @@
             "highlights": [
                 "Designed and implemented the whole API."
             ],
-            "endDate": "2016-01-01"
+            "endDate": "2016"
         },
         {
             "name": "ScoreCloud API",
-            "startDate": "2015-07-01",
+            "startDate": "2015",
             "summary": "ScoreCloud is 'Like Google Translate for music'. It instantly turns your singing or songs into sheet music.",
             "url": "http://scorecloud.com/",
             "keywords": [
@@ -301,11 +303,12 @@
                 "Added a many micro features to it, and helped with maintaining it and enhancing some queries response times",
                 "Wrote many python scripts to automate many server administration tasks"
             ],
-            "endDate": "2016-01-01"
+            "endDate": "2016"
         },
         {
             "name": "Gadawel",
-            "startDate": "2015-01",
+            "startDate": "2014",
+            "endDate":"2015",
             "keywords": [
                 "AngularJS",
                 "HTML5",
@@ -315,8 +318,7 @@
             "highlights": [
                 "Implemented multiple mobile web view screens using AngularJS, HTML5 and CSS3."
             ],
-            "url": "https://play.Google.com/store/apps/details?id=com.gadawelmadar",
-            "endDate": "2015-03"
+            "url": "https://play.Google.com/store/apps/details?id=com.gadawelmadar"
         }
     ],
     "references": [
