@@ -239,16 +239,33 @@
         }
     ],
     "projects": [
+      {
+        "name": "SingMoji",
+        "startDate": "2017-01-01",
+        "summary": "Your personal music messenger! It's a web mobile app to record anything and transfer it to a full song with composition",
+        "highlights": [
+            "Designed and implemented many ReactJS components",
+            "Wrote cordova plugin in Swift to save videos to IPhone/IPad gallery.",
+            "Fixed many cordova plugins (Both in Swift and Objective-C) to make them compatible with our app"        ],
+        "url": "http://doremir.com/singmoji/",
+        "keywords": [
+            "ReactJs",
+            "RxJS",
+            "WebPack",
+            "PixiJS",
+            "SailsJS"
+        ]
+      },
         {
             "name": "DoReMIR Audio Analysis API",
             "startDate": "2015-07-01",
             "summary": "Real-time polyphonic and monophonic Audio Analysis Service that creates music notation from voices.",
             "highlights": [
-                "Designed and implemented the whole system.",
-                "Wrote algorithms to concatenate audio stream chunks and encode/decode them.",
+                "Worked with the CTO in designing and implementing the whole system.",
+                "Wrote many algorithms to concatenate audio stream chunks and encode/decode them.",
                 "Cloud administration for all AWS services we used."
             ],
-            "url": "http://scorecloud.com/",
+            "url": "http://doremir.com/b2b/api/",
             "keywords": [
                 "Server-Less Architecture",
                 "NodeJS",
@@ -272,7 +289,7 @@
             "endDate": "2016-01-01"
         },
         {
-            "name": "ScoreCloud",
+            "name": "ScoreCloud API",
             "startDate": "2015-07-01",
             "summary": "ScoreCloud is 'Like Google Translate for music'. It instantly turns your singing or songs into sheet music.",
             "url": "http://scorecloud.com/",
@@ -281,27 +298,10 @@
                 "PostgreSQL"
             ],
             "highlights": [
-                "Added a many micro features to it, and helped with maintaining it and enhancing some queries response times "
+                "Added a many micro features to it, and helped with maintaining it and enhancing some queries response times",
+                "Wrote many python scripts to automate many server administration tasks"
             ],
             "endDate": "2016-01-01"
-        },
-        {
-            "name": "HeartBet",
-            "summary": "Heartbet.com is an online casino and betting platform, it offers a simpler and faster way to bet and win in your mobile",
-            "startDate": "2015-03-01",
-            "keywords": [
-                "AngularJS",
-                "HTML5",
-                "Sass",
-                "WordPress"
-            ],
-            "highlights": [
-                "Fixed many bugs and added a lot of improvements both in functionality and styling.",
-                "Implemented new payment solution using TAIN API.",
-                "I also worked in the back-end with WordPress and fixed some issues with the JSON API generated from WordPress."
-            ],
-            "url": "https://www.heartbet.com/",
-            "endDate": "2015-05-01"
         },
         {
             "name": "Gadawel",
@@ -317,21 +317,6 @@
             ],
             "url": "https://play.Google.com/store/apps/details?id=com.gadawelmadar",
             "endDate": "2015-03"
-        },
-        {
-            "name": "AlMotawef",
-            "startDate": "2014-09",
-            "keywords": [
-                "AngularJS",
-                "HTML5",
-                "Sass"
-            ],
-            "summary": "AlMotawef is an mobile application which provides an interactive guide for Hajj with all its Mansaks and For Umra, with complete elegant explanation.",
-            "highlights": [
-                "Implemented multiple mobile web view screens using AngularJS, HTML5 and CSS3."
-            ],
-            "url": "https://play.Google.com/store/apps/details?id=com.madar",
-            "endDate": "2015-01"
         }
     ],
     "references": [
