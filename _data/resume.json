@@ -15,8 +15,8 @@
             "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
             "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
             "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
-            "Writing NodeJs, Python, Javascript, SQL, HTML5, CSS3 almost everyday :)",
-            "Penetration tester, reverse engineer, registered OSCP student."
+            "Writing NodeJs, Python, Javascript, Bash, SQL, HTML5, CSS3 almost everyday :)",
+            "Penetration tester and 'Offensive Security Certified Professional (OSCP)' student."
         ],
         "locations": [
             {
@@ -119,16 +119,6 @@
     ],
     "skills": [
         {
-            "name": "Penetration Testing Skills",
-            "keywords": [
-                "Python",
-                "Shell Script",
-                "X86 Assembly",
-                "Reverse Engineering",
-                "Web App Penetration testing"
-            ]
-        },
-        {
             "name": "Back-End",
             "keywords": [
                 "NodeJS",
@@ -176,7 +166,19 @@
                 "Vagrant",
                 "Docker"
             ]
-        }
+        },
+        {
+          "name": "Penetration Testing (Junior level)",
+          "keywords": [
+              "Python",
+              "Shell Script",
+              "X86 Assembly",
+              "Buffer overflows",
+              "Web App Penetration testing",
+              "Network Security",
+              "cryptography"
+          ]
+      }
     ],
     "languages": [
         {
