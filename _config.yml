@@ -3,8 +3,6 @@ url: ""
 # Google tracking id
 
 google-tracking-id: "UA-111273208-1"
-force-https: True
-
 #############
 # HTML Head #
 #############
