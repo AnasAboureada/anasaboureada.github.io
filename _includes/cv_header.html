@@ -17,19 +17,19 @@
 
   <span id="contact">
     <span class="website">
-      <span class="fa fa-external-link"></span>
+      <span class="fas fa-link"></span>
       <a target="_blank" target="_blank" href="{{site.data.resume.basics.website}}">
         {{site.data.resume.basics.website}}
       </a>
     </span>
 
     <span class="email">
-      <span class="fa fa-envelope-o"></span>
+      <span class="fas fa-envelope"></span>
       <a href="mailto:{{site.data.resume.basics.email}}">{{site.data.resume.basics.email}}</a>
     </span>
 
     <span class="phone">
-      <span class="fa fa-mobile"></span>
+      <span class="fas fa-mobile-alt"></span>
         {% for member in site.data.resume.basics.phones %}
           {{member}}
         {% endfor %}
@@ -40,7 +40,7 @@
     {% for member in site.data.resume.basics.profiles %}
     <div class="item">
         <div class="username">
-          <span class="fa fa-{{member.network}} {{member.network}} social"></span>
+          <span class="fab fa-{{member.network}} {{member.network}} social"></span>
           <span class="url">
             <a target="_blank" href="{{member.url}}">{{member.username}}</a>
           </span>

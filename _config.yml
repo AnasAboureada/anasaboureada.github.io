@@ -1,8 +1,8 @@
 url: ""
 
 # Google tracking id
-
 google-tracking-id: "UA-111273208-1"
+
 #############
 # HTML Head #
 #############
@@ -35,7 +35,7 @@ start-delay: 200
 delete-delay: 2000
 lines:
   - text: "Full Stack Web Developer Engineer."
-  - text: "Reverse Engineer"
+  - text: "Software Engineer"
   - text: "Penetration Tester"
 
 me-img: "assets/img/me-intro.jpg"
@@ -54,16 +54,7 @@ apple-status-bar-style: "black"
 # Web app mode #
 ################
 
-web-app-mode: True
-
-# Icons for Web App mode
-
-# icon-36p: "/assets/img/web-app/icon-36p.png"
-# icon-48p: "/assets/img/web-app/icon-48p.png"
-# icon-72p: "/assets/img/web-app/icon-72p.png"
-# icon-96p: "/assets/img/web-app/icon-96p.png"
-# icon-144p: "/assets/img/web-app/icon-144p.png"
-# icon-192p: "/assets/img/web-app/icon-192p.png"
+web-app-mode: False
 
 ############
 # Timeline #
@@ -127,8 +118,6 @@ social:
     url: "https://twitter.com/anasfullstack"
   - title: "github"
     url: "https://github.com/anasfullstack"
-  - title: "rss"
-    url: "/feed.xml"
 
 ############
 # 404 page #
@@ -160,18 +149,10 @@ pages_list:
 
 exclude: ["LICENSE",
 "README.md",
-"_scripts",
-"_assets",
 "Gemfile",
 "Gemfile.lock",
-"gulpfile.js",
-"node_modules",
-"package.json",
-"vendor",
-"hooks",
-"anas_wordlist",
-"markdown.style.rb",
-"Rakefile"]
+"vendor"
+]
 
 # Pagination path
 
@@ -185,7 +166,6 @@ plugins:
   - jekyll-tagging-related_posts
   - liquid_pluralize
   - jekyll-twitter-plugin
-  - jekyll-seo-tag
 
 ########
 # Blog #
@@ -223,11 +203,6 @@ jekyll-archives:
 
 logo: "/assets/img/icon.png"
 
-social:
-  name: Anas Aboureada
-  links:
-    - https://twitter.com/anasfullstack
-    - https://www.facebook.com/anas.aboureada
-    - https://www.linkedin.com/in/anasfullstack
-    - https://github.com/anasfullstack
-    - https://keybase.io/anasfullstack
+sass:
+  sass_dir: _sass
+  style: compressed
