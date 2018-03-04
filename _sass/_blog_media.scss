@@ -41,7 +41,7 @@
   }
 
   .article-page {
-    width: 98%;
+    min-width: 98%;
     max-width: 100%;
     margin: 2%;
     flex-direction: column;
@@ -88,7 +88,7 @@
   }
 
   .post, .article-page {
-    width: 98%;
+    min-width: 98%;
     max-width: 100%;
     margin: 2%;
     flex-direction: column;
