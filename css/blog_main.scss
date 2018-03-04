@@ -101,11 +101,10 @@ table tfoot td {
 }
 
 .post, .article-page {
+  width: 100%;
   background-color: #fff;
-  width: calc(100vw - 260px);
   min-height: calc(100vh - 40px);
   padding: 1em;
-  max-width: calc(100vw - 260px);
 }
 
 ::-moz-selection {
