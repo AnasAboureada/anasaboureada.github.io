@@ -101,6 +101,7 @@ table tfoot td {
 }
 
 .post, .article-page {
+  max-width: 100%;
   background-color: #fff;
   min-height: calc(100vh - 40px);
   padding: 1em;

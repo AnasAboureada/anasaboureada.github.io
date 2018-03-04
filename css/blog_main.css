@@ -875,8 +875,6 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
   max-width: 100%;
-  /* width: -webkit-calc(100vw - 260px);
-  width: calc(100vw - 260px); */
   min-height: -webkit-calc(100vh - 40px);
   min-height: calc(100vh - 40px);
   padding: 1em;
