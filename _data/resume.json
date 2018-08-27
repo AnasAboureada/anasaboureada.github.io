@@ -1,11 +1,9 @@
 {
     "basics": {
         "name": "Anas Aboureada",
-        "label": "Full-Stack Web Developer Engineer & Penetration Tester",
+        "label": "Full-Stack Web Developer Engineer",
         "phones": [
-            "+46 (0) 700 60-7686",
-            " / ",
-            "+20 100 458-0907"
+            "+31 (0) 606-79 2838"
         ],
         "website": "http://aboureada.com",
         "blog": "http://aboureada.com/blog",
@@ -15,17 +13,12 @@
             "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
             "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
             "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
-            "Writing NodeJs, Python, JavaScript, Bash, SQL, HTML5, CSS3 almost every day :)",
-            "Penetration tester and 'Offensive Security Certified Professional (OSCP)' student."
+            "Writing NodeJs, Python, JavaScript, Bash, SQL, HTML5, CSS3 almost every day :)"
         ],
         "locations": [
             {
-                "city": "Stockholm",
-                "country": "Sweden /"
-            },
-            {
-                "city": "Alexandria",
-                "country": "Egypt"
+                "city": "Amsterdam",
+                "country": "The Netherlands"
             }
         ],
         "profiles": [
@@ -47,6 +40,28 @@
         ]
     },
     "work": [
+        {
+            "company": "Zoover Media BV.",
+            "position": "Fullstack Web Developer Engineer",
+            "city": "Amsterdam",
+            "country": "The Netherlands",
+            "website": "http://zoover.nl",
+            "startDate": "2018",
+            "endDate": "Now",
+            "location": {
+                "city": "Amsterdam",
+                "countryCode": "The Netherlands"
+            },
+            "summary": [
+                "Designed and implemented a server-less system for audio analysis using AWS Lambda functions, AWS API-Gateway, AWS DynamoDB, S3, NodeJS, Mocha, Chai, ...etc.",
+                "Designed and implemented REST API to consume the audio analysis server using Sails.js, MongoDB and deployed it to Heroku.",
+                "Enhanced the performance in ScoreCloud App back-end (Worked in both the database layer and code logic layer).",
+                "Added many features to ScoreCloud APP back-end using NodeJS, PostgreSQL (Song quality rating system, song view, play & share counter, user mailing list queues, CRON jobs, many other micro features).",
+                "Wrote unit, integration & stress tests for old and current code and services.",
+                "Wrote many components in ReactJS for SingMoji Mobile App",
+                "Wrote many python scripts for server administration tasks"
+            ]
+        },
         {
             "company": "DoReMIR Music Research AB",
             "position": "Web Developer Engineer",
@@ -166,19 +181,7 @@
                 "Vagrant",
                 "Docker"
             ]
-        },
-        {
-          "name": "Penetration Testing (Junior level)",
-          "keywords": [
-              "Python",
-              "Shell Script",
-              "X86 Assembly",
-              "Buffer overflows",
-              "Web App Penetration testing",
-              "Network Security",
-              "cryptography"
-          ]
-      }
+        }
     ],
     "languages": [
         {
@@ -188,10 +191,6 @@
         {
             "language": "Arabic",
             "fluency": "Native Speaker"
-        },
-        {
-            "language": "Swedish",
-            "fluency": "Beginner"
         }
     ],
     "volunteers": [
