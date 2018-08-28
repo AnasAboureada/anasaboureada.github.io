@@ -36,7 +36,6 @@ delete-delay: 2000
 lines:
   - text: "Full Stack Web Developer Engineer."
   - text: "Software Engineer"
-  - text: "Penetration Tester"
 
 me-img: "assets/img/me-intro.jpg"
 author-img: "author.jpg"
@@ -61,6 +60,10 @@ web-app-mode: False
 ############
 
 events:
+  - image: "/assets/img/timeline/zoover.png"
+    date: " 2018 - Now"
+    location: "Amsterdam, The Netherlands"
+    description: "Full-Stack Web Developer"
   - image: "/assets/img/timeline/doremir.png"
     date: " 2015 - 2018"
     location: "Stockholm, Sweden"
