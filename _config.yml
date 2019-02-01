@@ -11,7 +11,7 @@ lang: "en"
 author: "Anas Aboureada"
 title: "{ Anas Aboureada }"
 description: "Blog and website of Anas Aboureada, blogging mainly about cyber security. Opinions expressed are mine."
-keywords: "aboureada, anas, blog, anasfullstack, full-stack web developer, penetration testing, reverse engineering"
+keywords: "aboureada, anas, blog, anasaboureada, full-stack web developer, penetration testing, reverse engineering"
 favicon: "/assets/img/icon.png"
 
 ################
@@ -107,7 +107,7 @@ email: "anas@aboureada.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Full-Stack Web Developer Engineer, Studying for OSCP"
+author_blurb: "Full-Stack Web Developer Engineer"
 author_blurb_image: "/assets/img/author.png"
 
 ##################
@@ -116,11 +116,11 @@ author_blurb_image: "/assets/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/anasfullstack"
+    url: "https://facebook.com/anasaboureada"
   - title: "twitter"
-    url: "https://twitter.com/anasfullstack"
+    url: "https://twitter.com/anasaboureada"
   - title: "github"
-    url: "https://github.com/anasfullstack"
+    url: "https://github.com/anasaboureada"
 
 ############
 # 404 page #
@@ -181,11 +181,10 @@ disqus-shortname: "aboureada-com"
 syntax-highlight: True
 
 about-author: Web Developer Engineer.
-twitter: anasfullstack
-facebook: anasfullstack
-github: anasfullstack
-linkedin: anasfullstack
-email: anas@aboureada.com
+twitter: anasaboureada
+facebook: anasaboureada
+github: anasaboureada
+linkedin: anasaboureada
 
 jekyll-archives:
   enabled:

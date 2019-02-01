@@ -9,7 +9,7 @@
         "blog": "http://aboureada.com/blog",
         "email": "anas@aboureada.com",
         "summary": [
-            "Full-stack web developer engineer with +4 years professional experience.",
+            "Full-stack web developer engineer with +5 years professional experience.",
             "Designed and implemented server-less systems with intensive CPU processes using AWS-services.",
             "Maintained and upgraded performance for servers with +1M users and +10M Database records.",
             "Implemented front-end applications using ReactJs, RxJS, AngularJS, HTML5, CSS3, ...",
@@ -24,25 +24,25 @@
         "profiles": [
             {
                 "network": "github",
-                "username": "anasfullstack",
-                "url": "http://github.com/anasfullstack"
+                "username": "anasaboureada",
+                "url": "http://github.com/anasaboureada"
             },
             {
                 "network": "twitter",
-                "username": "anasfullstack",
-                "url": "http://twitter.com/anasfullstack"
+                "username": "anasaboureada",
+                "url": "http://twitter.com/anasaboureada"
             },
             {
                 "network": "linkedin",
-                "username": "anasfullstack",
-                "url": "http://linkedin.com/in/anasfullstack"
+                "username": "anasaboureada",
+                "url": "http://linkedin.com/in/anasaboureada"
             }
         ]
     },
     "work": [
         {
             "company": "Zoover Media BV.",
-            "position": "Fullstack Web Developer Engineer",
+            "position": "Team Coach & Web Developer Engineer",
             "city": "Amsterdam",
             "country": "The Netherlands",
             "website": "http://zoover.nl",
@@ -53,13 +53,8 @@
                 "countryCode": "The Netherlands"
             },
             "summary": [
-                "Designed and implemented a server-less system for audio analysis using AWS Lambda functions, AWS API-Gateway, AWS DynamoDB, S3, NodeJS, Mocha, Chai, ...etc.",
-                "Designed and implemented REST API to consume the audio analysis server using Sails.js, MongoDB and deployed it to Heroku.",
-                "Enhanced the performance in ScoreCloud App back-end (Worked in both the database layer and code logic layer).",
-                "Added many features to ScoreCloud APP back-end using NodeJS, PostgreSQL (Song quality rating system, song view, play & share counter, user mailing list queues, CRON jobs, many other micro features).",
-                "Wrote unit, integration & stress tests for old and current code and services.",
-                "Wrote many components in ReactJS for SingMoji Mobile App",
-                "Wrote many python scripts for server administration tasks"
+                "Building new features for our website http://zoover.nl",
+                "Build a new architecture for our ElasticSearch clusters Which enchanced the performance of our data sync process by 500%"
             ]
         },
         {
@@ -141,7 +136,8 @@
                 "Sails.JS",
                 "AWS Lambda-Function",
                 "AWS API-Gateway",
-                "AWS EC2"
+                "AWS EC2",
+                "Google Cloud Platform"
             ]
         },
         {
@@ -150,7 +146,8 @@
                 "AWS DynamoDB",
                 "MongoDB",
                 "PostgreSQL",
-                "MySQL"
+                "MySQL",
+                "ElasticSearch"
             ]
         },
         {

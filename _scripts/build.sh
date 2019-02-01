@@ -20,17 +20,17 @@ gulp
 cp -Rf ./assets/ ./_site/assets
 
 # Checkout master and remove everything
-git clone https://${GH_TOKEN}@github.com/anasfullstack/anasfullstack.github.io.git ../anasfullstack.github.io.master
-cd ../anasfullstack.github.io.master
+git clone https://${GH_TOKEN}@github.com/anasaboureada/anasaboureada.github.io.git ../anasaboureada.github.io.master
+cd ../anasaboureada.github.io.master
 git checkout master
 rm -rf *
 
 # Copy generated HTML site from source branch in original repo.
 # Now the master branch will contain only the contents of the _site directory.
-cp -R ../anasfullstack.github.io/_site/* .
+cp -R ../anasaboureada.github.io/_site/* .
 
 # Make sure we have the updated .travis.yml file so tests won't run on master.
-cp ../anasfullstack.github.io/.travis.yml .
+cp ../anasaboureada.github.io/.travis.yml .
 git config user.email ${GH_EMAIL}
 git config user.name "anas-bot"
 
